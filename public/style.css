@@ -1,0 +1,61 @@
+/* General body styling */
+body {
+ font-family: 'Arial', sans-serif;
+ background-color: #f4f4f4;
+ margin: 0;
+ padding: 20px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+/* Style for the message board */
+#message-board {
+ border: 1px solid #007bff;
+ border-radius: 4px;
+ min-height: 200px;
+ width: 80%; /* Set a max width for larger screens */
+ margin-bottom: 20px;
+ padding: 10px;
+ background-color: white;
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ overflow-y: auto;
+}
+
+/* Style individual messages */
+.message-item {
+ padding: 5px;
+ margin-bottom: 10px;
+ border-bottom: 1px solid #eeeeee;
+}
+
+/* Input and button container */
+.form-container {
+ display: flex;
+ width: 80%;
+ margin-bottom: 20px;
+}
+
+/* Style for the message input */
+#message-input {
+ flex-grow: 1; /* Allow input to fill space */
+ margin-right: 10px;
+ padding: 10px;
+ border: 1px solid #ced4da;
+ border-radius: 4px;
+}
+
+/* Style for the send button */
+#send-button {
+ padding: 10px;
+ border: none;
+ border-radius: 4px;
+ background-color: #007bff;
+ color: white;
+ cursor: pointer;
+}
+
+/* Button hover effect */
+#send-button:hover {
+ background-color: #0056b3;
+}
